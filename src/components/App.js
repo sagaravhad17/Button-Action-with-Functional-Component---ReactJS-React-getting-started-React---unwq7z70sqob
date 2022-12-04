@@ -6,6 +6,7 @@ function App() {
 
   const handlePara = ()=>{
     setPara("Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy")
+    return <p id="para">{para}</p>
   }
   return (
     <div id="main">
